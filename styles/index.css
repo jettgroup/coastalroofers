@@ -1,0 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font: Abril Fatface, sans-serif;
+  color: #333;
+  font-size: 3em;
+}
+/*# sourceMappingURL=index.css.map */

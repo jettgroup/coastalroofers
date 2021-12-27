@@ -23,7 +23,7 @@
     <main id="main">
         <section id="section-a" class="grid">
             <div class="content-wrap">
-                <img src="/img/logo.png" class="logo">
+                <img src="/img/Logo.jpg" class="logo">
                 <h2 class="content-title">Bathroom and Kitchen Remodels</h2>
                 <div class="content-text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae soluta doloremque! Quod earum qui tempore accusamus rerum dolore. Fugit quae mollitia animi nisi repudiandae vel, cum iste modi commodi?</p>
@@ -79,18 +79,23 @@
                 <h3 class="form-title">Contact Us</h3>
                 <form>
                     <label for="name">Name</label><br>
-                    <imput type="text" id="name" name="name"><br>
+                    <input type="text" id="name" name="name" required><br>
                     <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email"><br>
+                    <input type="email" id="email" name="email" required><br>
                     <label for="phone">Phone Number</label><br>
                     <input type="tel" id="phone" name="phone" placeholder="555-555-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <label for="description">Brief Description of Work</label><br>
+                    <textarea name="description" rows="10" cols="50">Please write a brief explanation of the work you are contacting us about having done.</textarea><br><br>
                     <input type="submit" value="Submit">
                     <input type="reset">
                 </form>
             </div>
-            
         </section>
     </main>
+
+    <footer id="main-footer" class="grid">
+        <div>Website Design and Coding done by <a href="#" target="_blank">JettDesigns</a></div>
+    </footer>
     
 </body>
 </html>

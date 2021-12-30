@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font: $header-font;
   color: $dark-color;
   margin: 0;
@@ -31,7 +31,7 @@ p {
     font: $text-font;
     color: $dark-color;
     margin: 0;
-    padding: 1em 0;
+    padding: 0;
 
 }
 
@@ -79,6 +79,10 @@ img {
     .content-wrap {
         padding: 0 1.5em;
     }
+
+    .btn {
+        margin-top: 5em;
+    }
 }
 
 #section-a {
@@ -95,7 +99,7 @@ img {
 
     .logo {
         width: 200px;
-        padding-top: 1em;
+        padding-top: .2em;
     }
 
     .content-text {
@@ -119,18 +123,18 @@ img {
     }
 
     .card-content {
-        padding: 1em;
+        padding: .5em;
     }
 }
 
 #section-c {
 
     .box {
-        padding: 2em;
-        color: #fff;
+        padding: 1.5em;
 
         :first-child {
             background: $accent-color;
+            color: #fff
         }
     }
 
@@ -139,11 +143,44 @@ img {
 
 .contact-form {
     padding: 0 1.5em;
+    text-align: center;
+
+    .form-title {
+        padding: 2em;
+        color: #fff;
+        background: $accent-color;
+        margin-bottom: 1em;
+    }
+
+    input {
+        border: none;
+        background: $dark-color;
+        color: #fff;
+        padding: .8em;
+
+        :focus {
+            border: 2px solid $accent-color;
+        }
+    }
 
     textarea {
         max-width: 250px;
         margin: auto;
+        border: none;
+        background: $dark-color;
+        color: #fff;
+        padding: 1em;
+
     }
+
+    input[type=text], input[type=email], input[type=tel] {
+        padding-left: 1em;
+    }
+}
+
+#main-footer {
+    margin-top: 1em;
+    font-size: .8em;
 }
 
 

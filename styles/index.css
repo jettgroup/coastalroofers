@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font: Abril Fatface, sans-serif;
   color: #333;
   margin: 0;
@@ -25,7 +25,7 @@ p {
   font: Lato, sans-serif;
   color: #333;
   margin: 0;
-  padding: 1em 0;
+  padding: 0;
 }
 
 img {
@@ -74,6 +74,10 @@ img {
   padding: 0 1.5em;
 }
 
+#showcase .btn {
+  margin-top: 5em;
+}
+
 #section-a {
   background: #fff;
   color: #333;
@@ -98,7 +102,7 @@ img {
 
 #section-a .logo {
   width: 200px;
-  padding-top: 1em;
+  padding-top: .2em;
 }
 
 #section-a .content-text {
@@ -122,24 +126,56 @@ img {
 }
 
 #section-b .card-content {
-  padding: 1em;
+  padding: .5em;
 }
 
 #section-c .box {
-  padding: 2em;
-  color: #fff;
+  padding: 1.5em;
 }
 
 #section-c .box :first-child {
   background: #2690d4;
+  color: #fff;
 }
 
 .contact-form {
   padding: 0 1.5em;
+  text-align: center;
+}
+
+.contact-form .form-title {
+  padding: 2em;
+  color: #fff;
+  background: #2690d4;
+  margin-bottom: 1em;
+}
+
+.contact-form input {
+  border: none;
+  background: #333;
+  color: #fff;
+  padding: .8em;
+}
+
+.contact-form input :focus {
+  border: 2px solid #2690d4;
 }
 
 .contact-form textarea {
   max-width: 250px;
   margin: auto;
+  border: none;
+  background: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+.contact-form input[type=text], .contact-form input[type=email], .contact-form input[type=tel] {
+  padding-left: 1em;
+}
+
+#main-footer {
+  margin-top: 1em;
+  font-size: .8em;
 }
 /*# sourceMappingURL=index.css.map */

@@ -97,6 +97,12 @@ img {
         align-items: center;
     }
 
+    .sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
     .logo {
         width: 200px;
         padding-top: .2em;
@@ -127,29 +133,12 @@ img {
     }
 }
 
-#section-c {
-
-    .box {
-        padding: 1em;
-
-        :first-child {
-            background: $accent-color;
-            color: #fff;
-            margin-bottom: .5em;
-        }
-    }
-
-
-}
-
 .contact-form {
     padding: 0 1.5em;
     text-align: center;
-    margin-top: 2em;
 
     .form-title {
         padding: 1em;
-        width: 300px;
         margin: 0 auto;
         color: #fff;
         background: $accent-color;
@@ -161,6 +150,8 @@ img {
         background: $dark-color;
         color: #fff;
         padding: .8em;
+        margin-top: .2em;
+        margin-bottom: .5em;
 
         :focus {
             border: 2px solid $accent-color;

@@ -100,6 +100,13 @@ img {
           align-items: center;
 }
 
+#section-a .sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 #section-a .logo {
   width: 200px;
   padding-top: .2em;
@@ -129,25 +136,13 @@ img {
   padding: .5em;
 }
 
-#section-c .box {
-  padding: 1em;
-}
-
-#section-c .box :first-child {
-  background: #2690d4;
-  color: #fff;
-  margin-bottom: .5em;
-}
-
 .contact-form {
   padding: 0 1.5em;
   text-align: center;
-  margin-top: 2em;
 }
 
 .contact-form .form-title {
   padding: 1em;
-  width: 300px;
   margin: 0 auto;
   color: #fff;
   background: #2690d4;
@@ -159,6 +154,8 @@ img {
   background: #333;
   color: #fff;
   padding: .8em;
+  margin-top: .2em;
+  margin-bottom: .5em;
 }
 
 .contact-form input :focus {

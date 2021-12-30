@@ -66,7 +66,7 @@ img {
 }
 
 #showcase h1 {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 0;
 }
 
@@ -75,7 +75,7 @@ img {
 }
 
 #showcase .btn {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 #section-a {
@@ -130,21 +130,25 @@ img {
 }
 
 #section-c .box {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 #section-c .box :first-child {
   background: #2690d4;
   color: #fff;
+  margin-bottom: .5em;
 }
 
 .contact-form {
   padding: 0 1.5em;
   text-align: center;
+  margin-top: 2em;
 }
 
 .contact-form .form-title {
-  padding: 2em;
+  padding: 1em;
+  width: 300px;
+  margin: 0 auto;
   color: #fff;
   background: #2690d4;
   margin-bottom: 1em;
